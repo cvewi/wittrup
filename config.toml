@@ -18,9 +18,9 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
     [[params.links]]
         icon = "github"
         title = "Github"
-        url = "https://github.com/"
+        url = "https://github.com/cvewi"
 
     [[params.links]]
-        icon = "twitter"
-        title = "Twitter"
-        url = "https://twitter.com/"
+        icon = "LinkedIn"
+        title = "LinkedIn"
+        url = "https://www.linkedin.com/in/christianwittrup/"
