@@ -1,6 +1,6 @@
-baseURL = ""
+baseURL = "https://www.wittrup.me"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Christian Wittrup - dad, husband, "
 theme ="hallo"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 
@@ -21,6 +21,6 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
         url = "https://github.com/cvewi"
 
     [[params.links]]
-        icon = "LinkedIn"
+        icon = "fa-linkedin-in"
         title = "LinkedIn"
         url = "https://www.linkedin.com/in/christianwittrup/"
