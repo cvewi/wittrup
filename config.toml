@@ -21,6 +21,6 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
         url = "https://github.com/cvewi"
 
     [[params.links]]
-        icon = "fa-linkedin-in"
+        icon = "linkedin-in"
         title = "LinkedIn"
         url = "https://www.linkedin.com/in/christianwittrup/"
