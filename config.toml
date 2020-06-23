@@ -25,3 +25,8 @@ googleAnalytics = "UA-169820698-1"
         icon = "linkedin-in"
         title = "LinkedIn"
         url = "https://www.linkedin.com/in/christianwittrup/"
+
+    [params.colors]
+        background = "#498F77"
+        foreground = "#B2DBCD"
+        hover = "#1B4235"
