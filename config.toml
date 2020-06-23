@@ -13,8 +13,8 @@ googleAnalytics = "UA-169820698-1"
     [[params.links]]
         iconset = "fas"
         icon = "envelope"
-        title = "E-mail"
-        url = "mailto:christian@vewi.dk"
+        title = "Contact"
+        url = "#contact"
 
     [[params.links]]
         icon = "github"
