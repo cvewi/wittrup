@@ -1,6 +1,6 @@
 baseURL = "https://www.wittrup.me"
 languageCode = "en-us"
-title = "Christian Wittrup - dad, husband, "
+title = "Christian Wittrup - wittrup.me"
 theme ="hallo"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
 googleAnalytics = "UA-169820698-1"
