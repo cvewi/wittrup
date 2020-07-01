@@ -1,0 +1,8 @@
+[hello]
+other = "Hello"
+
+[i-am]
+other = "I am"
+
+[generator]
+other = "© 2020 Christian Wittrup - Made with <a href='https://gohugo.io'>Hugo</a>"
