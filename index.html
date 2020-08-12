@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Wittrup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <script src="https://kit.fontawesome.com/31e715396f.js" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="left-portrait">
+                <img src="images/portrait.jpg" class="portrait">
+            </div>
+            <div class="right-header">
+                <h1>Hallo, Hola, Hej</h1>
+                <h2>I am Christian Wittrup</h2>
+                <p>
+                    A father, husband and struggling Spurs fan.<br>
+                    I live with my wife and daugther in Humlebæk, Denmark.<br>
+                    Please feel free to reach out to me on the below channels.
+                </p>
+                <p>
+                    <a href="#" onclick="contactbox()" title="Contact us" class="icons"><span class="fas fa-envelope"></span></a>
+                    <a href="https://www.linkedin.com/in/christianwittrup/" title="LinkedIn" class="icons" target="_blank"><span class="fab fa-linkedin"></span></a>
+                    <a href="https://github.com/cvewi" title="Github" class="icons" target="_blank"><span class="fab fa-github-square"></span></a>
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div id="footer-contact">
+                <h2>Contact me</h2>
+                <form name='contact' method='POST' data-netlify="true" data-netlify-recaptcha="true">
+                    <input type='hidden' name='form-name' value='contact' />
+                    <p>
+                    <label><input type="text" name="name" placeholder="Your Name"/></label>   
+                    <label><input type="email" name="email" placeholder="E-mail"/></label>
+                    </p>
+                    <p>
+                    <label><textarea name="message" placeholder="What's on your mind?"></textarea></label>
+                    </p>
+                    <div data-netlify-recaptcha="true"></div>
+                    <p>
+                    <button type="submit">Send</button>
+                    </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
