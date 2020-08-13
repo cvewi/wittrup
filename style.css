@@ -34,10 +34,12 @@ a:hover {
 
 .icons{
     margin-right: 0.5em;
+    font-size: 2em;
 }
 
 main {
-    height: 650px;
+    height: 100%;
+    max-width: 100%;
 }
 
 main .container {
@@ -61,7 +63,7 @@ img.portrait{
     box-sizing:border-box;
     border-radius:50%;
     border:0.5em solid #fff;
-    margin:2em 3em;
+    margin:0.5em 0.5em;
     width:100%;
     height:auto;
     max-width:40vmin;
@@ -73,7 +75,6 @@ main .right-header {
 }
 
 main .right-header a {
-    font-size: 2em;
 }
 
 footer{
@@ -136,14 +137,11 @@ footer #footer-contact button:hover{
 
 /* Mobile specific viewpoints */
 @media (max-width: 992px){ 
-    body {
-        margin: 1em;
-    }
     img.portrait{
         box-sizing:border-box;
         border-radius:50%;
         border:0.5em solid #fff;
-        margin:2em 3em;
+        margin:0.5em 0.5em;
         width:100%;
         height:auto;
         max-width:250px;
