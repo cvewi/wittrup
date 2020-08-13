@@ -75,9 +75,6 @@ main .right-header {
     flex: none;
 }
 
-main .right-header a {
-}
-
 footer{
     display: flex;
     flex-direction: column;
