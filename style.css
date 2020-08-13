@@ -153,4 +153,8 @@ footer #footer-contact button:hover{
     main .container {
         padding-top: 1vh;
     }
+    main .right-header {
+        flex: none;
+        word-wrap: break-word;
+    }
 }
