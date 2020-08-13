@@ -7,7 +7,8 @@ html {
 body {
     background-image: linear-gradient(to bottom right, rgb(237, 255, 196), rgb(143, 155, 117));
     color:white;
-    margin: 0;
+    margin: 0px;
+    padding: 1em;
     font-size: calc(16px+1vw);
     line-height: calc(1.1em + 0.5vw);
 }
@@ -56,12 +57,12 @@ main .container {
 
 main .left-portrait {
     flex: none;
-    margin: 4em;
+    margin: 2em;
 }
 
 img.portrait{
     box-sizing:border-box;
-    border-radius:50%;
+    border-radius:100%;
     border:0.5em solid #fff;
     margin:0.5em 0.5em;
     width:100%;
@@ -88,7 +89,7 @@ footer #footer-contact{
     flex: none;
     display: none;
     width: 100%;
-    margin: 1em;
+    margin: 0em;
 }
 
 footer #footer-contact input{
@@ -114,6 +115,8 @@ footer #footer-contact textarea{
 }
 
 footer #footer-contact button{
+    width: 20vw;
+    max-width: 200px;
     padding: 12px 10px;
     margin: 1px 0;
     box-sizing: border-box;
