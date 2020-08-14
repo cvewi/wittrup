@@ -82,6 +82,11 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+footer footer.container{
+    box-sizing: border-box;
+}
+
 footer #footer-contact{
     flex: none;
     display: none;
@@ -133,6 +138,7 @@ footer #footer-contact button:hover{
     font-weight: bold;
     background-color: rgb(92, 100, 75);
     color: white;
+    cursor: pointer;
 }
 
 /* Mobile specific viewpoints */
