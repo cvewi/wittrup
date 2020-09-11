@@ -9,7 +9,7 @@ body {
     color:white;
     margin: 0px;
     padding: 1em;
-    font-size: calc(16px+1vw);
+    font-size: calc(16px + 0.3vw);
     line-height: calc(1.1em + 0.5vw);
 }
 
