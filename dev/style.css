@@ -2,20 +2,23 @@
   --background-color: rgb(26, 26, 26);
   --text-color: white;
   --link-color: #543fd7;
-  --content-background-color: burlywood;
+  --content-background-color: rgb(160, 132, 97);
+  --content-border-color: rgb(97, 81, 60);
 }
 
 .light-mode {
   --background-color: rgb(245, 245, 245);
   --text-color: rgb(26, 26, 26);
   --link-color: #543fd7;
-  --content-background-color: burlywood;  
+  --content-background-color: rgb(233, 208, 176);  
+  --content-border-color: rgb(160, 126, 81);
 }
 
 body {
   background-color: var(--background-color);
   color: var(--text-color);
   font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .wrapper {
@@ -33,10 +36,10 @@ body {
 
 .header {
   font-size: 50px;
-  background-color: #543fd7;
-  border-color: cadetblue;
+  background-color: var(--content-background-color);
+  border-color: var(--content-border-color);
   border-bottom-style: solid;
-  border-bottom-left-radius: 40px;
+  border-top-left-radius: 40px;
   border-width: 15px;
 
 }
@@ -60,4 +63,26 @@ body {
   padding: 10px;
   margin: 5px;
   border-style: dotted;
+  border-radius: 10px;
+  border-color: var(--content-border-color);
+}
+
+
+.light-mode-button {
+  border: none;
+  background-color: var(--content-border-color);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.light-mode-button:hover {
+  background-color: rgb(255, 251, 0);
+  color: black;
 }
