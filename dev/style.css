@@ -1,0 +1,63 @@
+:root {
+  --background-color: rgb(26, 26, 26);
+  --text-color: white;
+  --link-color: #543fd7;
+  --content-background-color: burlywood;
+}
+
+.light-mode {
+  --background-color: rgb(245, 245, 245);
+  --text-color: rgb(26, 26, 26);
+  --link-color: #543fd7;
+  --content-background-color: burlywood;  
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+  /* display: flex; */
+  text-align: center;
+}
+
+.wrapper > * {
+  padding: 30px;
+  margin: 10px;
+  background-color: var(--content-background-color);
+  /* flex: 1 1 10em;
+  flex-wrap: wrap; */
+}
+
+.header {
+  font-size: 50px;
+  background-color: #543fd7;
+  border-color: cadetblue;
+  border-bottom-style: solid;
+  border-bottom-left-radius: 40px;
+  border-width: 15px;
+
+}
+
+.footer {
+  order: 2;
+  height: 50px;
+}
+
+.description {
+  height: 100px;
+}
+
+.projects {
+  display: flex;
+}
+
+.projects > * {
+  flex: 1 1 10em;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin: 5px;
+  border-style: dotted;
+}
