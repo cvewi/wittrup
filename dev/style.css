@@ -1,9 +1,41 @@
+/* :root {
+  --background-color: #02111b;
+  --text-color: #fcfcfc;
+  --link-color: #5d737e;
+  --content-background-color: #3f4045;
+  --content-border-color: #30292f;
+} */
+
+/* :root {
+  --background-color: #e6efe9;
+  --text-color: #8f8389;
+  --link-color: #c5f4e0;
+  --content-background-color: #a7c4a0;
+  --content-border-color: #c2eaba;
+} */
+
+/* :root {
+  --background-color: #50514f;
+  --text-color: #fdfff7;
+  --link-color: #ffed65;
+  --content-background-color: #b4adea;
+  --content-border-color: #59ffa0;
+} */
+
+/* :root {
+  --background-color: #717568;
+  --text-color: #f0f0f0;
+  --link-color: #f1bf98;
+  --content-background-color: #3f4739;
+  --content-border-color: #e1f4cb;
+} */
+
 :root {
-  --background-color: rgb(26, 26, 26);
-  --text-color: white;
-  --link-color: #543fd7;
-  --content-background-color: rgb(160, 132, 97);
-  --content-border-color: rgb(97, 81, 60);
+  --background-color: #000000;
+  --text-color: #f4f4f9;
+  --link-color: #b8dbd9;
+  --content-background-color: #2f4550;
+  --content-border-color: #586f7c;
 }
 
 .light-mode {
@@ -22,8 +54,10 @@ body {
 }
 
 .wrapper {
-  /* display: flex; */
-  text-align: center;
+  display: flex;
+  text-align: center;  
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .wrapper > * {
@@ -32,6 +66,7 @@ body {
   background-color: var(--content-background-color);
   /* flex: 1 1 10em;
   flex-wrap: wrap; */
+  
 }
 
 .header {
@@ -44,34 +79,35 @@ body {
 
 }
 
-.footer {
-  order: 2;
-  height: 50px;
-}
-
-.description {
-  height: 100px;
-}
-
 .projects {
   display: flex;
+  background-color: transparent;
+  padding: 0px;
+  flex-wrap: wrap;
 }
 
 .projects > * {
-  flex: 1 1 10em;
-  flex-wrap: wrap;
-  padding: 10px;
-  margin: 5px;
+  flex: 1 1 5em;
+  padding: 0px;
+  margin: 5px 5px;
   border-style: dotted;
   border-radius: 10px;
   border-color: var(--content-border-color);
+  background-color: var(--content-background-color);
 }
 
+.project-item-link {
+  background-color: var(--content-background-color);
+}
+
+.project-item-link:hover {
+  background-color: var(--content-border-color);
+}
 
 .light-mode-button {
   border: none;
-  background-color: var(--content-border-color);
-  color: white;
+  background-color: var(--link-color);
+  color: var(--text-color);
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 15px;
@@ -83,6 +119,6 @@ body {
 }
 
 .light-mode-button:hover {
-  background-color: rgb(255, 251, 0);
-  color: black;
+  background-color: var(--content-border-color);
+  color: var(--text-color);
 }
